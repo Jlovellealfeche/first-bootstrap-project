@@ -4,7 +4,7 @@
   "description": "Learning bootstrap v5 with sass",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile.sass":"sass --watch scss:assets/css"
   },
   "keywords": [
     "Bootstrap",
@@ -16,6 +16,10 @@
   "author": "JLovellealfeche",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "autoprefixer": "^10.4.14",
     "bootstrap": "^5.2.3"
   }
 }
