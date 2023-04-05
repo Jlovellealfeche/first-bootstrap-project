@@ -14,5 +14,8 @@
     "learn-sass"
   ],
   "author": "JLovellealfeche",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
 }
