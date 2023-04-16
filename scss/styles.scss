@@ -8,7 +8,7 @@
 @use 'components/typography';
 
 //Import the sections
-
+@use 'sections/css-reset';
 @use 'sections/navbar';
 @use 'sections/intro-section';
 @use 'sections/companies';
